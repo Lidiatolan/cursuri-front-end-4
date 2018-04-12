@@ -1,0 +1,14 @@
+ul{
+  background-color:gray;
+}
+
+p{
+  color:brown;
+}
+#navbar{
+ list-style:none; 
+}
+
+.box{
+  border: solid 5px pink;
+}
