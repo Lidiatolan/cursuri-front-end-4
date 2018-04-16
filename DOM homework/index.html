@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div class="container">
+		<h1>Contact form</h1>
+		<div> 
+
+			<div id="top_message"  style="display: none"></div>
+			<form id="contact_form" role="form" class="valid" action="#">
+				<div>
+					<input id="firstname" type="text" name="first_name" class="form-control" placeholder="First name" >
+				</div>
+				<br>
+				<div>
+					<input id="lastname" type="text" name="last_name" class="form-control" placeholder="Last name" >
+				</div>
+				<br>
+
+				<div>
+					<label >Gender</label>
+					<br/>
+					<div class="radio-inline">
+						<label><input type="radio" name="gender" value="male" checked>Male</label>
+					</div>
+					<div class="radio-inline">
+						<label><input type="radio" name="gender" value="female">Female</label>
+					</div>
+				</div>
+
+				<br>
+
+				<div>
+					<textarea id="form_message" name="message" class="form-control" placeholder="Your message." rows="4" ></textarea>
+				</div>
+
+                 <br>
+
+				<div>
+					<input type="submit" class="btn-submit" onclick="event.preventDefault(); validate()" value="Submit">
+				</div>
+
+				<br />
+
+			</form>
+
+			<div>
+				<img src="good.jpg" >
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+input.invalid, textarea.invalid {
+    border: 1px solid red;
+}
+h1{
+	margin-left: 60px;
+}
+
+img{
+	float: left;
+	margin-left: 300px;
+	margin-top: -280px;
+	width: 300px;
+
+}
+
+.valid{
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+body{
+	background-image: url(6.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
