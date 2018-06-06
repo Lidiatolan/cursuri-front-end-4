@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../styles/style.css">
+</head>
+<body>
+
+    <div id="game-details"></div>
+
+    <div class="message"></div>
+
+    <form>
+        <input class="game-title" type="text" placeholder="Title">
+        <input class="game-genre" type="text" placeholder="Genre">
+        <input class="game-publisher" type="text" placeholder="Publisher">
+        <textarea class="game-description" placeholder="Description"></textarea>
+        <br />
+        <button id="update-btn" type="button">Save Changes</button>
+        <button id="delete-btn" type="button" style="background: darkred">Delete Game</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../models/game.js"></script>
+    <script src="../models/gamesList.js"></script>
+    <script src="../view/gamesDetailsView.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
+</head>
+<body>
+	<h1>Games World</h1>
+	<!-- Loader -->
+	<img src="../loading_spinner.gif" width="250px" id="loader" />
+	<!--<button class="add">Add new game</button>-->
+<a href="../pages/newGame.html" class="button">Add a new game</a>
+
+
+	<!-- List of games -->
+	<table id="container">
+		<thead>
+			<tr>
+				<!-- <td>ID</td> -->
+				<td>Image</td>
+				<td>Title</td>
+				<td>Description</td>
+
+			</tr>
+		</thead>
+		<!-- ... LIST TO BE INSERTED DINAMICALLY ... -->
+	</table>
+
+	<!-- Insert JS files -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="../models/game.js"></script>
+	<script src="../models/gamesList.js"></script>
+	<script src= "../view/gamesListView.js"></script>
+
+</body>
+</html>
